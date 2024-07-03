@@ -90,7 +90,7 @@ httpServer.listen(port, () => {
   });
 
 mongoose.set('strictQuery', true);
-mongoose.connect("mongodb+srv://vuvantinh121123:Tv170203@cluster0.owmvemg.mongodb.net/,{
+mongoose.connect("mongodb+srv://vuvantinh121123:Tv170203@cluster0.owmvemg.mongodb.net/",{
     useNewUrlParser: true,
     useUnifiedTopology: true
 }, (err) => {
